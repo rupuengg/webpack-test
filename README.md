@@ -19,3 +19,5 @@ module.exports = {
 ```
 ###### And Run Webpack Command
 > Run **webpack**
+###### Install Babel using and Run webpack again
+> Run npm install babel-core babel-loader babel-preset-es2015 --save-dev
