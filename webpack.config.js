@@ -1,6 +1,6 @@
 module.exports = {
   // define entry point
-  entry: './assets/js/app.js',
+  entry: './assets/app.js',
 
   // define output point
   output: {
@@ -20,6 +20,10 @@ module.exports = {
             'es2015'
           ]
         }
+      },
+      {
+        test: /\.css$/,
+        loader: 'style-loader!css-loader'
       }
     ]
   }

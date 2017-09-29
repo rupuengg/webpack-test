@@ -1,5 +1,9 @@
 # Webpack-test
 ## This application is used to create for understanding of webpack
+## First Install My favorite editor
+- Atom Editor
+- install package 'atom-live-server'
+- platformio-ide-terminal
 ###### Initialize NPM
 > Run **npm init**
 ###### Intalling Webpack and Bundling js Files
@@ -21,3 +25,5 @@ module.exports = {
 > Run **webpack**
 ###### Install Babel using and Run webpack again
 > Run npm install babel-core babel-loader babel-preset-es2015 --save-dev
+###### Instal style-loader and css-loader and Run webpack command again
+> Run npm install css-loader style-loader --save-dev
