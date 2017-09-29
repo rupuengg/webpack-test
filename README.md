@@ -17,3 +17,5 @@ module.exports = {
   }
 };
 ```
+###### And Webpack Command
+> Run **webpack**
